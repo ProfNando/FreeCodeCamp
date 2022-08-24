@@ -1,0 +1,5 @@
+const myList = [["Azul",4],
+                ["Vermelho",5],
+                ["Verde",6],
+                ["Roxo",3],
+                ["Amarelo",-3]  ];
