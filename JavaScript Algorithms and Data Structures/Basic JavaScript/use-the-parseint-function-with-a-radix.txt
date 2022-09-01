@@ -1,0 +1,7 @@
+function convertToInteger(str) {
+  
+  let integer = parseInt(str,2);//Transforma de binário para inteiro.
+  return integer;
+}
+
+convertToInteger("10011");
