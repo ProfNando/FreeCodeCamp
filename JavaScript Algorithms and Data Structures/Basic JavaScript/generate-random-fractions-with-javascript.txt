@@ -1,0 +1,8 @@
+function randomFraction() {
+
+  // Only change code below this line
+  let alea = Math.random();
+  return alea;
+
+  // Only change code above this line
+}
