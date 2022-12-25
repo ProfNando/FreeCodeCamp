@@ -1,0 +1,15 @@
+function titleCase(str) {
+  
+  let dividido = str.split(" ")
+  let atualizado = [];
+
+  for(let i in dividido){
+    atualizado[i] = dividido[i][0].toUpperCase() + dividido[i].slice(1).toLowerCase();
+  }
+
+  
+  
+  return atualizado.join(" ");
+}
+
+titleCase("I'm a little tea pot");
