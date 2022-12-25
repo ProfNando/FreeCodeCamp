@@ -1,0 +1,12 @@
+function chunkArrayInGroups(arr, size) {
+  
+  let novaArr = [];
+
+  for(let i = 0; i < arr.length; i+= size){
+      novaArr.push(arr.slice(i, i + size))
+  }
+  
+  return novaArr;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
