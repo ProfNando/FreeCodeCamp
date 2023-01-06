@@ -1,0 +1,10 @@
+function spinalCase(str) {
+
+    const novaFrase = str.split(/\s|_|(?=[A-Z])/)
+                      .join("-")
+                      .toLowerCase();
+ 
+  return novaFrase;
+}
+
+spinalCase('This Is Spinal Tap');
