@@ -1,0 +1,9 @@
+function sumAll(arr) {
+  let sumEntre = 0;
+  for (let i = Math.min(...arr); i <= Math.max(...arr); i++) {
+    sumEntre += i;
+  }
+  return sumEntre;
+}
+
+sumAll([1, 4]);
