@@ -1,0 +1,20 @@
+function palindrome(str) {
+  
+   var retira = /[\W_]/g;
+
+   str = str.toLowerCase().replace(retira, '');
+    
+  var tam = str.length;
+
+ for (var i = 0; i < tam/2; i++) {
+   if (str[i] !== str[tam - 1 - i]) {
+       return false;
+   }
+ }
+ return true;
+}
+  
+
+
+
+palindrome("eye");
