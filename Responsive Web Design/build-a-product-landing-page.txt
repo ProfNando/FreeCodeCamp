@@ -1,0 +1,67 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head> 
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+     
+  </head>
+
+  <body>
+
+    <header id='header'>
+      <img id='header-img' src='#'>
+
+      <nav id='nav-bar'>
+        <a class='nav-link' href='#uno'> </a>
+        <a class='nav-link' href='#dos'> </a>
+        <a class='nav-link' href='#tri'> </a>
+      </nav>
+
+      <div>
+        <form id='form' action='https://www.freecodecamp.com/email-submit'>
+         <label id='elmail'>Digite o email:</label>
+         <input name='email' type='email' id='email' placeholder='text'>
+         <input type='submit' id='submit'>
+         
+         </form> 
+      </div>
+    
+    </header>
+
+    <video src='#' id='video'>
+
+    <footer name='footer'> 
+      <h1 id='uno'></h1>
+      <h1 id='dos'></h1>
+      <h1 id='tri'></h1>
+    </footer>
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media(width :'400'){
+  video{
+    max-width:400;
+  }
+}
+*{
+  background-color:rgba(252,234,43,0.2);
+}
+
+#nav-bar{
+  position: fixed;
+  top: 0;
+  left:0;
+  display:flex;
+}
+
+** end of undefined **
+

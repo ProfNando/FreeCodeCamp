@@ -1,0 +1,77 @@
+** start of undefined **
+
+</DOCTYPE html>
+<html>
+  <head>
+
+    <title id='title'>Tribute Page</title>
+    <link href='styles.css'>
+  </head> 
+
+   <body>
+     
+     
+
+      <main id='main'>
+
+          <div id='img-div'>
+            <img src='#' id='image'>
+            <div id='img-caption'>
+              olA
+          </div>
+          </div>
+
+          
+          
+
+          
+
+          <div id='tribute-info'>
+              Hello World
+            <a href='#'> </a>
+
+          </div>
+
+          
+         
+          <a href='#' id='tribute-link' target='_blank'>
+
+          </a>
+          
+         
+
+          
+          
+
+       </main> 
+
+   </body> 
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img{
+  display: block;
+  height: auto;
+  
+}
+#image{
+  max-width:100%;
+  text-align: center;
+  display: block;
+  
+}
+#image {
+ max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
+
+
+
+** end of undefined **
+
