@@ -1,0 +1,62 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href='styles.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <header>
+      <section id='welcome-section'>
+        <nav id='navbar'>
+        <ul id=''>
+          <li><a href='#'>Sobre</a></li>
+          <li><a href='#'>Trabalhos</a></li>
+          <li><a href='#' id='profile-link' target='_blank'>Contato</a></li>
+        </ul>
+        </nav>
+        <h1>Olá, Sou o Nando!</h1>
+      </section>
+
+    </header>
+
+    <main>
+      <section id='projects'>
+          <section class='project-tile sec1'><a></a></section>
+          <section class='project-tile sec2'><a></a></section>
+          <section class='project-tile sec3'><a></a></section>
+      </section>
+
+    </main>
+
+    <footer></footer>
+    
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media altera{
+  
+}
+
+*{
+  background-color: rgba(143,22,156,0.3)
+}
+
+nav  ul  li{
+  list-style-type:none;
+}
+.navbar{
+  position:fixed;
+}
+
+** end of undefined **
+
