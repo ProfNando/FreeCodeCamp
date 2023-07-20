@@ -17,6 +17,7 @@ class App extends React.Component {
 
 class Welcome extends React.Component {
   constructor(props) {
+    super(props);
 
   }
   render() {
